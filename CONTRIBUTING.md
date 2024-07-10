@@ -18,7 +18,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 ## Submitting a pull request
 
 1. [Fork][fork] and clone the repository.
-1. Configure and install the dependencies: `npx lerna bootstrap`.
+1. Configure and install the dependencies: `npx lerna@6 bootstrap`.
 1. Create a new branch: `git checkout -b feat-branch-name`.
 1. Start developer playground with editor and watcher with the command `yarn dev`.
 1. Find editor initializer code in the `./packages/development/src/pages/dev/index.tsx`
